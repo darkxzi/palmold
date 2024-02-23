@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PalmPay Adder - Login</title>
+</head>
+<style>
+  input {
+    width: 130px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: white;
+    background: #C48CCD;
+    border: #C48CCD;
+    text-align: center;
+    font-weight: bold;
+  }
+  input:focus {
+    border: 1px solid #C48CCD;
+  }
+  input[type=button] {
+    width: 120px;
+    background: #9C27B3;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 8px;
+    
+  }
+  a {
+    float: right;
+    color: black;
+    font-weight: bold;
+  }
+</style>
+<body>
+  <center>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+        <br />
+        <br />
+<br />
+
+   <form>
+    <input type="password" name="pass" placeholder="Code" required="" title="Enter the password you purchased from the app!" autocomplete="off"><br>
+    <input type="button" class="button" onclick="pasuser(this.form)" value="ENTER">
+    </form>
+
+<br />
+<br />
+<br />
+<a href="buy.html">BUY CODE</a>
+</body>
+</html>
+    <script>
+<script lang="Javascript">
+    function pasuser(form) {
+    if (form.pass.value=="1995@#$") {
+      location="result.html" }
+    else { alert("Wrong Code, Buy Now!") }
+    }
+    </script>
+

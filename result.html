@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PalmPay Adder - Dashboard</title>
+</head>
+<style>
+  input[type=tel] {
+    width: 180px;
+    background: #CF93D9;
+    color: #000;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: #CF93D9;
+    text-align: center;
+  }
+  p {
+    font-size: 15px;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  input {
+    width: 25px;
+    padding: 9px;
+    background-color: #9C27B3;
+  }
+  input[type=checkbox] {
+    background: #9C27B3;
+    font-size: 14px;
+  }
+  button {
+    width: 109px;
+    padding: 13px;
+    color: white;
+    font-size: 14px;
+    border-radius: 14px;
+    background: #9C27B3;
+  }
+</style>
+<body>
+  <form action="add.html">
+  <center>
+    <br />
+<p>PALMPAY ACCOUNT NUMBER</p>
+<input type="tel" placeholder="eg. 81xxxxxx678" required>
+<br />
+<br />
+<br />
+<b>AMOUNT</b>
+<br />
+<br />
+<br />
+<label>
+    <input type="radio" name="myCheckbox" style="background: #9C27B3;"> 100 – 10,000 NGN
+  </label>
+  <br />
+  <br />
+ <label>
+    <input type="radio" name="myCheckbox">
+    10,000 – 20,000 NGN
+  </label>
+  <br />
+  <br />
+
+  <label>
+    <input type="radio" name="myCheckbox">
+    20,000 – 30,000 NGN
+ </label>
+  <br />
+  <br />
+
+  <label>
+    <input type="radio" name="myCheckbox">
+    30,000 – 40,000 NGN
+  </label>
+<br />
+<br />
+<label>
+    <input type="radio" name="myCheckbox">
+    40,000 – 50,000 NGN
+ </label>
+  <br />
+  <br />
+<br />
+<label style="font-size: 18px;">
+<input type="checkbox">
+Clear trace
+</label>
+<label style="font-size: 18px;">
+<input type="checkbox">
+Proxy server
+</label>
+<label style="font-size: 18px;">
+<input type="checkbox">
+IUP server
+</label>
+<br />
+<br />
+<label style="font-size: 18px;">
+<input type="checkbox">
+Clear history
+</label>
+<label style="font-size: 18px;">
+<input type="checkbox">
+Disable cache
+</label>
+<label style="font-size: 18px;">
+<input type="checkbox">
+Post check
+</label>
+<br />
+<br />
+<br />
+<button>Fund</button>
+</body>
+
+</html>

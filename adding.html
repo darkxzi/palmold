@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<style>
+   .loader {
+  border: 5px solid #9C27B3;
+  border-top: 5px solid #FFFFFF;
+  border-radius: 50%;
+  width: 55px;
+    height: 55px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+      body {
+        background: #F1F1F1;
+      }
+      p {
+        color: #9C27B3;
+        font-size: 21px;
+      }
+</style>
+<body>
+  <center>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+        <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <br />
+<div class="loader">
+</div>
+  <p>Adding funds..</p>
+</body>
+
+</html>
+<script>
+        setTimeout(function() {
+          window.location.href = "done.html";
+        }, 9500);
+
+</script>
